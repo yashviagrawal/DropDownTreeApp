@@ -18,7 +18,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+  "paths": {
+    "@progress/kendo-react-common": ["path/to/kendo-react-common"]
+  }
   },
   "include": [
     "src"
